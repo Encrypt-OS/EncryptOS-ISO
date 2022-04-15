@@ -14,4 +14,4 @@
 ######################################################
 
 ## GitHub
-Server = https://raw.githubusercontent.com/Encrypt-OS/repo/main/$repo/$arch
+Server = https://raw.githubusercontent.com/Encrypt-OS/repo/main/encryptos/$arch
