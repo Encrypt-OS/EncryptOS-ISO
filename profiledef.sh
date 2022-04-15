@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="EncryptOS"
+iso_name="encryptos"
 iso_label="EOS_$(date +%Y%m)"
 iso_publisher="EncryptOS <https://snaildos.com>"
 iso_application="EncryptOS Live/Rescue CD"
