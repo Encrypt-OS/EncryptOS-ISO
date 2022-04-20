@@ -3,7 +3,6 @@
 ###           EncryptOS  Mirror List               ###
 ####                                              ####
 ######################################################
-### Note that the mirrors were not ranked, so you may get better mirrorlist
 #### Entry in file /etc/pacman.conf:
 ###     [encryptos]
 ###     SigLevel = PackageRequired
@@ -13,5 +12,5 @@
 ###      these mirrors or re-order them manually.
 ######################################################
 
-## GitHub
-Server = https://raw.githubusercontent.com/Encrypt-OS/repo/main/encryptos/$arch
+## SnailDOS (Sydney, Australia)
+Server = https://mirror.snaildos.com/encryptos/$arch
