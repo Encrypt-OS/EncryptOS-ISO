@@ -4,8 +4,8 @@
 base
 base-devel
 archlinux-keyring
-encryptos-mirrorlist
-encryptos-keyring
+EncryptOS-mirrorlist
+EncryptOS-keyring
 cryptsetup
 device-mapper
 diffutils
@@ -221,7 +221,7 @@ lightdm-slick-greeter
 eos-lightdm-slick-theme
 
 ## Desktop environment
-encryptos-skel-xfce4
+EncryptOS-skel-xfce4
 libwnck3
 network-manager-applet
 thunar-archive-plugin
@@ -306,14 +306,14 @@ upower
 yaml-cpp
 
 
-# encryptOS REPO
+# EncryptOS REPO
 
 ## General
 
 arc-gtk-theme-eos
 ckbcomp
-encryptos-theming
-encryptos-xfce4-terminal-colors
+EncryptOS-theming
+EncryptOS-xfce4-terminal-colors
 eos-apps-info
 eos-hooks
 eos-log-tool
@@ -322,7 +322,7 @@ eos-quickstart
 eos-qogir-icons
 eos-rankmirrors
 eos-update-notifier
-grub2-theme-encryptos
+grub2-theme-EncryptOS
 mkinitcpio-openswap
 nvidia-installer-dkms
 rate-mirrors
@@ -331,7 +331,7 @@ welcome
 yad-eos
 yay
 
-## Calamares encryptOS
+## Calamares EncryptOS
 calamares_config_ce
 calamares_config_default
 calamares_current
