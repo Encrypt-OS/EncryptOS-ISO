@@ -348,3 +348,6 @@ virtualbox-guest-utils
 open-vm-tools
 xf86-input-vmmouse
 xf86-video-vmware
+
+# Snap (It will 100% be removed in the future, for now, our application needs it.)
+snapd
