@@ -221,7 +221,6 @@ lightdm-slick-greeter
 eos-lightdm-slick-theme
 
 ## Desktop environment
-EncryptOS-skel-xfce4
 libwnck3
 network-manager-applet
 thunar-archive-plugin
@@ -313,7 +312,6 @@ yaml-cpp
 arc-gtk-theme-eos
 ckbcomp
 EncryptOS-theming
-EncryptOS-xfce4-terminal-colors
 eos-apps-info
 eos-hooks
 eos-log-tool
