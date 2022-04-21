@@ -162,11 +162,9 @@ ndisc6
 net-tools
 netctl
 networkmanager
-networkmanager-openvpn
 nmap
 nss-mdns
 openconnect
-openvpn
 ppp
 pptpclient
 rp-pppoe
