@@ -146,9 +146,6 @@ mkdir "/opt/extra-drivers"
 sudo pacman -Sw --noconfirm --cachedir "/opt/extra-drivers" r8168
 rm "/var/log/pacman.log"
 
-# install our privacy browser
-sudo snap install fifo
-
 ############################
 # end chrooted commandlist #
 ############################
