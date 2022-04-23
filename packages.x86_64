@@ -219,7 +219,7 @@ lightdm-slick-greeter
 eos-lightdm-slick-theme
 
 ## Desktop environment
-EncryptOS-skel-xfce4
+encryptos-skel-xfce4
 libwnck3
 network-manager-applet
 thunar-archive-plugin
@@ -349,6 +349,3 @@ virtualbox-guest-utils
 open-vm-tools
 xf86-input-vmmouse
 xf86-video-vmware
-
-# Snap (It will 100% be removed in the future, for now, our application needs it.)
-snapd
