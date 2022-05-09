@@ -205,7 +205,6 @@ glances
 python-defusedxml
 python-packaging
 bash-completion
-downgrade
 tldr
 duf
 inxi
