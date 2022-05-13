@@ -36,9 +36,8 @@ Bios-boot (syslinux) for legacy systems
 
 You need to use an installed EncryptOS system or any archbased system with EndeavourOS [repository](https://github.com/Encrypt-OS/mirrors) enabled.
 
-As the installer packages and needed dependencies will get installed from Encrypt-OS repository.
+As the installer packages and needed dependencies will get installed from EncryptOS repository.
 
-general information: https://endeavouros-team.github.io/EndeavourOS-Development/
 
 ### Install build dependencies
 
@@ -65,7 +64,7 @@ sudo ./mkarchiso -v "."
 or with log
 
 ~~~
-sudo ./mkarchiso -v "." 2>&1 | tee "eosiso.log"
+sudo ./mkarchiso -v "." 2>&1 | tee "encryptosiso.log"
 ~~~
 
 ##### 3. The .iso appears in `out` directory
