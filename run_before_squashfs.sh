@@ -118,8 +118,8 @@ rm -rf "/root/packages/"
 #rm "/var/log/pacman.log"
 
 # set wallpaper for live-session and save original for later
-wget "https://raw.githubusercontent.com/endeavouros-team/endeavouros-theming/apollo/backgrounds/endeavouros-wallpaper.png"
-mv "endeavouros-wallpaper.png" "/etc/calamares/files/encryptos-wallpaper.png"
+wget "https://raw.githubusercontent.com/Encrypt-OS/encryptos-theming/main/backgrounds/encryptos-wallpaper.png"
+mv "encryptos-wallpaper.png" "/etc/calamares/files/encryptos-wallpaper.png"
 mv "/root/livewall.png" "/usr/share/encryptos/backgrounds/encryptos-wallpaper.png"
 chmod 644 "/usr/share/encryptos/backgrounds/"*".png"
 rm -rf "/usr/share/backgrounds/xfce/xfce-verticals.png"
