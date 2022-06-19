@@ -52,7 +52,7 @@ sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed
 ```
 git clone https://github.com/Encrypt-OS/EncryptOS-ISO.git
 cd "EncryptOS-ISO"
-sudo ./fix_permissions.sh
+sudo ./prepare.sh
 ```
 
 ##### 2. Build
