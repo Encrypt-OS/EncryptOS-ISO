@@ -70,15 +70,6 @@ chown root:root "/etc/sudoers.d"
 chown root:root "/etc/sudoers.d/g_wheel"
 chmod 755 "/etc"
 
-# fix configurations
-sed -i 's/#\(PermitRootLogin \).\+/\1yes/' "/etc/ssh/sshd_config"
-# archiso now has a /airootfs/etc/systemd/journald.conf.d/volatile-storage.conf
-#sed -i 's/#\(Storage=\)auto/\1volatile/' "/etc/systemd/journald.conf"
-# archiso now has /airootfs/etc/systemd/logind.conf.d/do-not-suspend.conf
-#sed -i 's/#\(HandleSuspendKey=\)suspend/\1ignore/' "/etc/systemd/logind.conf"
-#sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' "/etc/systemd/logind.conf"
-#sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' "/etc/systemd/logind.conf"
-
 # enable systemd services
 systemctl enable NetworkManager.service systemd-timesyncd.service bluetooth.service firewalld.service
 systemctl enable vboxservice.service vmtoolsd.service vmware-vmblock-fuse.service
@@ -104,7 +95,6 @@ cp "mkinitcpio.conf" "/etc/"
 rm "mkinitcpio.conf" "/root/mkinitcpio.patch"
 
 # remove unneeded grub stuff from /boot
-# rm "/boot/grub/grub.cfg" #archiso does not create it anymore
 rm -R "/boot/syslinux"
 rm -R "/boot/memtest86+"
 rm "/boot/amd-ucode.img"
@@ -137,9 +127,6 @@ cp -af "/home/liveuser/"{".bashrc",".bash_profile"} "/etc/skel/"
 # move blacklisting nouveau out of ISO (copy back to target for offline installs)
 mv "/usr/lib/modprobe.d/nvidia-utils.conf" "/etc/calamares/files/nv-modprobe"
 mv "/usr/lib/modules-load.d/nvidia-utils.conf" "/etc/calamares/files/nv-modules-load"
-
-# fix for r8169 module
-#sed -i "/usr/lib/modprobe.d/r8168.conf" -e 's|r8169|r8168|'
 
 # get extra drivers!
 mkdir "/opt/extra-drivers"
