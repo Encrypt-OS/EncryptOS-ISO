@@ -79,3 +79,10 @@ airootfs/root/packages
 ~~~
 
 Packages will get installed and directory will be cleaned up after that.
+
+## Versioning
+`xx` - Release Candinate
+Currently released candinates on mirror + WWW
+```
+01 - Margherita Pizza
+```
