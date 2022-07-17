@@ -1,0 +1,29 @@
+# Maintainer: EncryptOS <@snaildos@snaildos.com>
+
+pkgname='encryptos-skel-liveuser'
+pkgver=1.0
+pkgrel=1
+pkgdesc='Liveuser specific skel setup for EncryptOS'
+arch=('any')
+url='https://encryptos.snaildos.com'
+license=('GPL3')
+source=()
+
+package() {
+
+    # Clone file structure
+    cp -r --no-preserve=ownership "${srcdir}/"* "${pkgdir}"
+
+    # Find all scripts
+    readarray -d '' scripts < <(find "${pkgdir}/etc/skel" -type f \( -iname "*.sh" -o -iname "*.bash" \) -print0)
+    scripts+=(
+        "${pkgdir}/etc/skel/.xprofile"
+        "${pkgdir}/etc/skel/.xinitrc"
+    )
+
+    # Make scripts executable
+    for script in "${scripts[@]}";
+    do
+        [[ -f ${script} ]] && chmod +x "${script}"
+    done
+}
