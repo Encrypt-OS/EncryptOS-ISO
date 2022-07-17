@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # This file can contain commands that will be executed at the end of
-# EndeavourOS install (online mode only) on the target system.
+# EncryptOS install (online mode only) on the target system.
 # The commands will be executed as root.
 #
 # This allows you to customize the installed system in several ways!

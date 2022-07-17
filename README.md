@@ -3,33 +3,26 @@
 [![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
 
 
-# Resources
+This ISO is based on hugely modified Arch-ISO to provide Installation Environment for EncryptOS.
+## Resources:
 
-- https://snaildos.com
+- https://encryptos.snaildos.com
 - [Getting help at the forum](https://community.snaildos.com)
 - [Bug report](https://community.snaildos.com/t/bug-reporting-guide/27)
+- [Discord Chat](https://invite.gg/snaildos)
 - [Twitter news](https://twitter.com/SnailDOS)
 
 
 ### Development source
 
 - [EncryptOS-ISO source](https://github.com/Encrypt-OS/EncryptOS-ISO) (Live environment with XFCE4-Desktop)
-- [EncryptOS-ISO source](https://github.com/Encrypt-OS/EncryptOS-calamares) (installer framework)
+- [EncryptOS-calamares](https://github.com/EncryptOS-OS/EncryptOS-calamares) (installer framework)
 
 
 ### Base source
 
-- [Arch-ISO](https://github.com/Encrypt-OS/EncryptOS-ISO)
-- [Calamares](https://github.com/Encrypt-OS/EncryptOS-calamares)
-
-
-
-# Boot options
-
-Systemd-boot for UEFI systems
-
-Bios-boot (syslinux) for legacy systems
-
+- [Arch-ISO](https://gitlab.archlinux.org/archlinux/archiso)
+- [Calamares](https://github.com/calamares/calamares)
 
 
 # How to build ISO
@@ -37,7 +30,6 @@ Bios-boot (syslinux) for legacy systems
 You need to use an installed EncryptOS system or any archbased system with EncryptOS [repository](https://github.com/Encrypt-OS/mirrors) enabled.
 
 As the installer packages and needed dependencies will get installed from EncryptOS repository.
-
 
 ### Install build dependencies
 
@@ -52,7 +44,7 @@ sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed
 ```
 git clone https://github.com/Encrypt-OS/EncryptOS-ISO.git
 cd "EncryptOS-ISO"
-sudo ./prepare.sh
+./prepare.sh
 ```
 
 ##### 2. Build
@@ -64,7 +56,7 @@ sudo ./mkarchiso -v "."
 or with log
 
 ~~~
-sudo ./mkarchiso -v "." 2>&1 | tee "encryptosiso.log"
+sudo ./mkarchiso -v "." 2>&1 | tee "eosiso_$(date -u +'%Y.%m.%d-%H:%M').log"
 ~~~
 
 ##### 3. The .iso appears in `out` directory
@@ -79,10 +71,3 @@ airootfs/root/packages
 ~~~
 
 Packages will get installed and directory will be cleaned up after that.
-
-## Versioning
-`xx` - Release Candinate
-Currently released candinates on mirror + WWW
-```
-01 - Margherita Pizza
-```

@@ -1,6 +1,7 @@
 # BASE
 
 ## Base system
+iptables-nft
 base
 base-devel
 archlinux-keyring
@@ -113,24 +114,30 @@ pavucontrol
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+rtkit
 sof-firmware
+wireplumber
 
 
 # SOFTWARE
 
 ## General system
+bash-completion
 dialog
 dmraid
-expect
+downgrade
+duf
 fakeroot
 freetype2
 git
-gpart
+glances
+python-packaging
 gpm
 gptfdisk
 haveged
 hwdetect
 hwinfo
+inxi
 libgsf
 libopenraw
 mlocate
@@ -141,6 +148,8 @@ poppler-glib
 power-profiles-daemon
 rebuild-detector
 reflector
+rsync
+tldr
 unrar
 unzip
 wget
@@ -161,9 +170,11 @@ ndisc6
 net-tools
 netctl
 networkmanager
+networkmanager-openvpn
 nmap
 nss-mdns
 openconnect
+openvpn
 ppp
 pptpclient
 rp-pppoe
@@ -175,15 +186,16 @@ wireless_tools
 wpa_supplicant
 xl2tpd
 
-# Bluetooth
+## Bluetooth
 bluez
 bluez-utils
 blueberry
 
-# Firewall
+## Firewall
 firewalld
 python-pyqt5
 python-capng
+
 
 # ISO
 
@@ -195,18 +207,11 @@ pv
 syslinux
 
 ## Live iso tools
+clonezilla
+gpart
 gparted
 grsync
-clonezilla
 hdparm
-fsarchiver
-glances
-python-defusedxml
-python-packaging
-bash-completion
-tldr
-duf
-inxi
 
 
 # DESKTOP
@@ -217,7 +222,6 @@ lightdm-slick-greeter
 eos-lightdm-slick-theme
 
 ## Desktop environment
-encryptos-skel-xfce4
 libwnck3
 network-manager-applet
 thunar-archive-plugin
@@ -269,45 +273,10 @@ ttf-liberation
 ttf-opensans
 
 
-# CALAMARES
-
-## Calamares
-boost-libs
-cmake
-dmidecode
-doxygen
-extra-cmake-modules
-kconfig
-kcoreaddons
-ki18n
-kparts
-kpmcore
-kservice
-kvantum
-kwidgetsaddons
-libpwquality
-lsb-release
-parted
-polkit-qt5
-python
-qt5-svg
-qt5-tools
-qt5-webengine
-qt5-xmlpatterns
-qt5ct
-solid
-squashfs-tools
-tcpdump
-upower
-yaml-cpp
-
-
-# EncryptOS REPO
+# ENCRYPTOS REPO
 
 ## General
-
 arc-gtk-theme-eos
-ckbcomp
 EncryptOS-theming
 eos-apps-info
 eos-hooks
@@ -328,6 +297,9 @@ yay
 ## Calamares EncryptOS
 calamares_config_default
 calamares_current
+ckbcomp
+kvantum
+qt5ct
 
 
 # VM SUPPORT

@@ -1,11 +1,11 @@
-# Maintainer: EncryptOS <@snaildos@snaildos.com>
+# Maintainer: EncryptOS <snaildos@snaildos.com>
 
 pkgname='encryptos-skel-liveuser'
 pkgver=1.0
 pkgrel=1
 pkgdesc='Liveuser specific skel setup for EncryptOS'
 arch=('any')
-url='https://encryptos.snaildos.com'
+url='https://www.encryptos.com'
 license=('GPL3')
 source=()
 
