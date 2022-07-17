@@ -84,7 +84,7 @@ rm -rf "/root/packages/"
 # Set wallpaper for live-session and original for installed system
 mv "encryptos-wallpaper.png" "/etc/calamares/files/encryptos-wallpaper.png"
 mv "/root/livewall.png" "/usr/share/encryptos/backgrounds/encryptos-wallpaper.png"
-chmod 644 "/usr/share/encryptros/backgrounds/"*".png"
+chmod 644 "/usr/share/encryptos/backgrounds/"*".png"
 rm -rf "/usr/share/backgrounds/xfce/xfce-verticals.png"
 ln -s "/usr/share/encryptos/backgrounds/encryptos-wallpaper.png" "/usr/share/backgrounds/xfce/xfce-verticals.png"
 
