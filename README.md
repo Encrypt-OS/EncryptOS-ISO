@@ -34,7 +34,7 @@ Bios-boot (syslinux) for legacy systems
 
 # How to build ISO
 
-You need to use an installed EncryptOS system or any archbased system with EndeavourOS [repository](https://github.com/Encrypt-OS/mirrors) enabled.
+You need to use an installed EncryptOS system or any archbased system with EncryptOS [repository](https://github.com/Encrypt-OS/mirrors) enabled.
 
 As the installer packages and needed dependencies will get installed from EncryptOS repository.
 
