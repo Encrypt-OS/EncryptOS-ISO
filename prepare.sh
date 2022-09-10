@@ -7,7 +7,7 @@ wget -qN --show-progress -P "airootfs/etc/pacman.d/" "https://raw.githubusercont
 wget -qN --show-progress -P "airootfs/root/" "https://raw.githubusercontent.com/archlinux/mkinitcpio/master/mkinitcpio.conf"
 
 # Get wallpaper for installed system
-wget -qN --show-progress -P "airootfs/root/" "https://raw.githubusercontent.com/Encrypt-OS/encryptos-theming/artemis_neo/backgrounds/encryptos-wallpaper.png"
+wget -qN --show-progress -P "airootfs/root/" "https://github.com/Encrypt-OS/encryptos-theming/raw/main/backgrounds/encryptos-wallpaper.png"
 
 # Make sure build scripts are executable
 chmod +x "./"{"mkarchiso","prepare.sh","run_before_squashfs.sh"}

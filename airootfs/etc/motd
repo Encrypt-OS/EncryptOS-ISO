@@ -1,1 +1,25 @@
-aaaaa
+This ISO is based on Arch-ISO modified hugely to provide Installation Environment for EncryptOS.
+https://snaildos.com
+
+EncryptOS-archiso Sources: 
+https://github.com/Encrypt-OS/EncyptOS-ISO
+
+Arch-ISO Source: 
+https://gitlab.archlinux.org/archlinux/archiso
+
+Calamares as our installer:
+https://github.com/calamares/calamares
+
+Live environment will start now and let you install EncryptOS to disk, or tryout XFCE4-Desktop from Live-Session.
+
+Bugs can be reported here:
+https://community.snaildos.com/t/bug-reporting-guide/27
+
+Getting help at the forum: https://community.snaildos.com
+News at twitter: https://twitter.com/SnailDOS
+
+Powered by SnailDOS, All Rights Reserved.
+
+Thank you for donating your trust in us!
+
+------------------

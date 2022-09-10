@@ -5,8 +5,8 @@ iptables-nft
 base
 base-devel
 archlinux-keyring
-encryptos-mirrorlist
-encryptos-keyring
+EncryptOS-mirrorlist
+EncryptOS-keyring
 cryptsetup
 device-mapper
 diffutils
@@ -276,8 +276,7 @@ ttf-opensans
 
 ## General
 arc-gtk-theme-eos
-encryptos-theming
-encryptos-xfce4-terminal-colors
+EncryptOS-theming
 eos-apps-info
 eos-hooks
 eos-log-tool
@@ -286,7 +285,7 @@ eos-quickstart
 eos-qogir-icons
 eos-rankmirrors
 eos-update-notifier
-grub2-theme-encryptos
+grub2-theme-EncryptOS
 nvidia-installer-dkms
 rate-mirrors
 reflector-simple
@@ -295,10 +294,10 @@ yad-eos
 yay
 
 ## Calamares EncryptOS
-calamares_config_ce
 calamares_config_default
 calamares_current
 ckbcomp
+boost
 kvantum
 qt5ct
 
