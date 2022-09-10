@@ -5,7 +5,7 @@ pkgver=1.0
 pkgrel=1
 pkgdesc='Liveuser specific skel setup for EncryptOS'
 arch=('any')
-url='https://www.encryptos.com'
+url='https://encryptos.snaildos.com'
 license=('GPL3')
 source=()
 
