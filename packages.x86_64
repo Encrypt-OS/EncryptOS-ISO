@@ -59,7 +59,6 @@ xfsprogs
 efibootmgr
 efitools
 grub
-grub-tools
 os-prober
 refind
 
@@ -125,6 +124,7 @@ wireplumber
 bash-completion
 dialog
 dmraid
+downgrade
 duf
 fakeroot
 freetype2
@@ -272,7 +272,7 @@ ttf-liberation
 ttf-opensans
 
 
-# ENCRYPTOS REPO
+# EncryptOS REPO
 
 ## General
 arc-gtk-theme-eos

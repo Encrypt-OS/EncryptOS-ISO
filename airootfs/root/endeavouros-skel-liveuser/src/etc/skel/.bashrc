@@ -48,6 +48,8 @@ bind '"\e[B":history-search-forward'
 ## Some generally useful functions.
 ## Consider uncommenting aliases below to start using these functions.
 ##
+## October 2021: removed many obsolete functions. If you still need them, please look at
+## https://github.com/Encrypt-OS/EncryptOS-archiso/raw/master/airootfs/etc/skel/.bashrc
 
 _open_files_for_editing() {
     # Open any given document file(s) for editing (or just viewing).
