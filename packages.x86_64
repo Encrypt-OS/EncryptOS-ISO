@@ -124,7 +124,7 @@ wireplumber
 bash-completion
 dialog
 dmraid
-downgrade
+eos-downgrade
 duf
 fakeroot
 freetype2
