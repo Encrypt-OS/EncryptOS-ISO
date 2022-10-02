@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Warning
+echo Before Preparing To Compile, Ensure the SKEL is compiled, otherwise ECOS will not boot.
+
 # Get mirrorlist for offline installs
 wget -qN --show-progress -P "airootfs/etc/pacman.d/" "https://raw.githubusercontent.com/Encrypt-OS/EncryptOS-ISO/main/mirrorlist"
 
@@ -18,7 +21,3 @@ get_pkg() {
 }
 
 get_pkg "encryptos-skel-xfce4"
-
-# Build liveuser skel
-cd "airootfs/root/encryptos-skel-liveuser"
-makepkg -f
