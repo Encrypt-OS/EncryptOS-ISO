@@ -30,6 +30,9 @@ pacman-key --init
 pacman-key --lsign-key AEA41F137D60202D1A2D3EB786CD105462642978
 pacman-key --populate archlinux
 
+# Populate Pacman
+pacman -Sy
+
 # Install liveuser skel (in case of conflicts use overwrite)
 pacman -U --noconfirm --overwrite "/etc/skel/.bash_profile","/etc/skel/.bashrc" -- "/root/encryptos-skel-liveuser/"*".pkg.tar.zst"
 
