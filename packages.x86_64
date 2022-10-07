@@ -285,7 +285,6 @@ eos-rankmirrors
 eos-update-notifier
 grub2-theme-EncryptOS
 nvidia-installer-dkms
-rate-mirrors
 reflector-simple
 welcome
 yad-eos
